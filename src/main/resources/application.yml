@@ -1,0 +1,6 @@
+spring:
+  redis:
+    database: 1
+    host: ohyy.xyz
+    port: 6379
+    password:
