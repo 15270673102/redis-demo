@@ -22,7 +22,7 @@ public class SortedSetDemo {
         sortdSet.clear();
         Console.log(sortdSet);
 
-        // 新加的值还是会排序的
+        // 新加入的值还是会排序的
         if (sortdSet.size() == 0) {
             sortdSet.add(3);
             sortdSet.add(1);
