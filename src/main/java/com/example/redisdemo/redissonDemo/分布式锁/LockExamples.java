@@ -1,5 +1,6 @@
-package com.example.redisdemo.redissonDemo;
+package com.example.redisdemo.redissonDemo.分布式锁;
 
+import com.example.redisdemo.redissonDemo.redissonUtil;
 import org.redisson.api.RLock;
 import org.redisson.api.RedissonClient;
 

@@ -1,13 +1,13 @@
-package com.example.redisdemo.redissonDemo;
+package com.example.redisdemo.redissonDemo.分布式对象;
 
 import cn.hutool.core.lang.Console;
+import com.example.redisdemo.redissonDemo.redissonUtil;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.redisson.api.RBucket;
 import org.redisson.api.RedissonClient;
 
-import javax.validation.constraints.NotNull;
 import java.io.Serializable;
 import java.util.concurrent.TimeUnit;
 

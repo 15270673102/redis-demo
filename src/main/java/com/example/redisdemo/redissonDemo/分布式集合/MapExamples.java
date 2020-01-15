@@ -1,9 +1,11 @@
-package com.example.redisdemo.redissonDemo;
+package com.example.redisdemo.redissonDemo.分布式集合;
 
+import com.example.redisdemo.redissonDemo.redissonUtil;
 import org.redisson.api.RMap;
 import org.redisson.api.RedissonClient;
 
 /**
+ * map
  * @auther: wangjiayu
  * @date: 2020/1/15 10:27
  */

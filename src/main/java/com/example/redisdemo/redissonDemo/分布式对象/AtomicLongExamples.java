@@ -1,5 +1,6 @@
-package com.example.redisdemo.redissonDemo;
+package com.example.redisdemo.redissonDemo.分布式对象;
 
+import com.example.redisdemo.redissonDemo.redissonUtil;
 import org.redisson.api.RAtomicLong;
 import org.redisson.api.RedissonClient;
 

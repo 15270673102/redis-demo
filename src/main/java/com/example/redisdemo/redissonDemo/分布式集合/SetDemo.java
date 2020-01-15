@@ -1,11 +1,12 @@
-package com.example.redisdemo.redissonDemo;
+package com.example.redisdemo.redissonDemo.分布式集合;
 
 import cn.hutool.core.lang.Console;
-import org.redisson.api.RList;
+import com.example.redisdemo.redissonDemo.redissonUtil;
 import org.redisson.api.RSet;
 import org.redisson.api.RedissonClient;
 
 /**
+ *  set
  * @auther: wangjiayu
  * @date: 2020/1/15 11:52
  */
