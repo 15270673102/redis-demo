@@ -1,4 +1,4 @@
-package com.example.redisdemo.redissonDemo.分布式集合;
+package com.example.redisdemo.redissonDemo.分布式集合.set;
 
 import cn.hutool.core.lang.Console;
 import com.example.redisdemo.redissonDemo.redissonUtil;
@@ -6,6 +6,7 @@ import org.redisson.api.RLexSortedSet;
 import org.redisson.api.RedissonClient;
 
 import java.util.Iterator;
+import java.util.Spliterator;
 
 /**
  * 字典排序集  源码--》 ( RSortedSet<String>) 这个是一个string 类型的集合
@@ -27,11 +28,7 @@ public class LexSortedSetDemo {
         lexSortedSet.add("9");
 
         Console.log(lexSortedSet.rank("z"));
-
-        Iterator<String> iterator = lexSortedSet.iterator();
-        while (iterator.hasNext()) {
-            Console.log(iterator.next());
-        }
+        lexSortedSet.forEach(System.err::println);
 
         client.shutdown();
     }

@@ -1,4 +1,4 @@
-package com.example.redisdemo.redissonDemo.分布式集合;
+package com.example.redisdemo.redissonDemo.分布式集合.set;
 
 import cn.hutool.core.lang.Console;
 import com.example.redisdemo.redissonDemo.redissonUtil;
@@ -26,8 +26,9 @@ public class ScoredSortedSetDemo {
         Console.log(scoredSortedSet.first());
         Console.log(scoredSortedSet.firstScore());
         Console.log(scoredSortedSet.size());
-
         Console.log(scoredSortedSet.rank("xxxx"));
+
+        scoredSortedSet.forEach(System.err::println);
 
         client.shutdown();
     }
