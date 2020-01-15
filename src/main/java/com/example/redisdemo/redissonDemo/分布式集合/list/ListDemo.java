@@ -1,4 +1,4 @@
-package com.example.redisdemo.redissonDemo.分布式集合;
+package com.example.redisdemo.redissonDemo.分布式集合.list;
 
 import cn.hutool.core.lang.Console;
 import com.example.redisdemo.redissonDemo.redissonUtil;
