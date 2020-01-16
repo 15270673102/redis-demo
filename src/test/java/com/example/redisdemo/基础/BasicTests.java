@@ -1,7 +1,7 @@
 package com.example.redisdemo.基础;
 
 import cn.hutool.core.lang.Console;
-import com.example.redisdemo.config.RedisUtil;
+import com.example.redisdemo.springbootstarterdataredis.config.RedisUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

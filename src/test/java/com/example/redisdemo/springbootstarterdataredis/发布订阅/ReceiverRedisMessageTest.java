@@ -1,6 +1,6 @@
-package com.example.redisdemo.发布订阅;
+package com.example.redisdemo.springbootstarterdataredis.发布订阅;
 
-import com.example.redisdemo.config.RedisCons;
+import com.example.redisdemo.springbootstarterdataredis.config.RedisCons;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;

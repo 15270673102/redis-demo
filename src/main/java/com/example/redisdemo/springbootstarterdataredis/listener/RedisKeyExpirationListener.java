@@ -1,4 +1,4 @@
-package com.example.redisdemo.listener;
+package com.example.redisdemo.springbootstarterdataredis.listener;
 
 import org.springframework.data.redis.connection.Message;
 import org.springframework.data.redis.listener.KeyExpirationEventMessageListener;

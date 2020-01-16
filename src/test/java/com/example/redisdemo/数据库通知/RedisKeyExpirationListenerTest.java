@@ -1,6 +1,6 @@
 package com.example.redisdemo.数据库通知;
 
-import com.example.redisdemo.config.RedisUtil;
+import com.example.redisdemo.springbootstarterdataredis.config.RedisUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 

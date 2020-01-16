@@ -1,4 +1,4 @@
-package com.example.redisdemo.发布订阅;
+package com.example.redisdemo.springbootstarterdataredis.发布订阅;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

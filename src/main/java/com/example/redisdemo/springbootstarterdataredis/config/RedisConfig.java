@@ -1,7 +1,7 @@
-package com.example.redisdemo.config;
+package com.example.redisdemo.springbootstarterdataredis.config;
 
 
-import com.example.redisdemo.发布订阅.ReceiverRedisMessage;
+import com.example.redisdemo.springbootstarterdataredis.发布订阅.ReceiverRedisMessage;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;

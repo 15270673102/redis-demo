@@ -1,4 +1,4 @@
-package com.example.redisdemo.config;
+package com.example.redisdemo.springbootstarterdataredis.config;
 
 
 import lombok.Setter;
